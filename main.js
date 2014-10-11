@@ -24,9 +24,10 @@
 /*global define, brackets, window, $, document */
 
 define(function (require, exports, module) {
-    
+
     "use strict";
-  
+
+    var ExtensionUtils  = brackets.getModule("utils/ExtensionUtils");
     ExtensionUtils.loadStyleSheet(module, "zen-pane.css");
-    
+
 });
